@@ -15,6 +15,10 @@ This developer plugin allows for easy debugging of those ambiguous "The plugin g
 
 This developer plugin allows for easy debugging of those ambiguous "The plugin generated ### characters of unexpected output during activation. If you notice “headers already sent” messages, problems with syndication feeds or other issues, try deactivating or removing this plugin." Hope it helps you solve your headaches!
 
+== Usage ==
+
+Install this plugin and then activate your plugin you are trying to debug.
+
 == Changelog ==
 
 = 1.0.1 =
