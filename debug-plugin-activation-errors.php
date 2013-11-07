@@ -3,13 +3,13 @@
 Plugin Name: Debug "unexpected output" During Plugin Activation
 Plugin URI: http://www.inboundnow.com/
 Description: This developer plugin allows for easy debugging of those ambiguous "The plugin generated ### characters of unexpected output during activation. If you notice “headers already sent” messages, problems with syndication feeds or other issues, try deactivating or removing this plugin." Hope it helps you solve your headaches!
-Version: 1.0.1
+Version: 1.1
 Author: David Wells
 Author URI: http://www.inboudnow.com/
 */
 
 if (is_admin()) {
-    
+
 /* Debug Plugin Activation errors */
 add_action('activated_plugin','plugin_activation_save_error');
 function plugin_activation_save_error(){
