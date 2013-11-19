@@ -7,7 +7,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: debug, plugin activation errors, wordpress developer plugin
 Requires at least: 3.5
 Tested up to: 3.6
-Stable Tag: 1.6
+Stable Tag: 1.9.1
 
 This developer plugin allows for easy debugging of those ambiguous "The plugin generated ### characters of unexpected output during activation. If you notice “headers already sent” messages, problems with syndication feeds or other issues, try deactivating or removing this plugin." Hope it helps you solve your headaches!
 
